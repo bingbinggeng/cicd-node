@@ -1,5 +1,5 @@
 const RESPONSE_CODE = {
-  SUC: 0,
+  SUC: 200,
   ERR: 1
 }
 

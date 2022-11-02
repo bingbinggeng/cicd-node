@@ -5,8 +5,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "export NODE_ENV=development && nodemon --inspect ./src/index.js --exec babel-node",
-    "build": "export NODE_ENV=production && node ./src/index.js"
+    "dev": "set NODE_ENV=development && nodemon --inspect ./src/index.js --exec babel-node",
+    "build": "set NODE_ENV=production && node ./src/index.js"
   },
   "keywords": [],
   "author": "",
