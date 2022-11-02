@@ -1,13 +1,14 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-11-02 13:37:16
- * @LastEditTime: 2022-11-02 13:37:45
+ * @LastEditTime: 2022-11-02 16:42:23
  * @FilePath: \cicd-node\src\services\articleConfig.js
  */
 import articleModel from '../model/articleConfig'
 
 export async function findJobPage (page, pageSize, params) {
   Object.keys(params).forEach(key => {
+    // 如果参数不存在，就删除他，等同于delete params[key]
     if (!params[key]) Reflect.deleteProperty(params, key)
   })
 
