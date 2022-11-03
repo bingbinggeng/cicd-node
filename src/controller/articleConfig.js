@@ -1,7 +1,7 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-11-02 13:41:12
- * @LastEditTime: 2022-11-02 13:41:29
+ * @LastEditTime: 2022-11-03 09:49:42
  * @FilePath: \cicd-node\src\controller\articleConfig.js
  */
 import * as services from '../services/articleConfig'
@@ -9,9 +9,9 @@ import { RESPONSE_CODE } from '../constant'
 
 export async function getConfigList (ctx, next) {
   try {
-    const { pageNo: page, pageSize, projectName } = ctx.request.query
-    const pageData = await services.findJobPage(page, pageSize, { projectName })
-    const total = await services.countJob({ projectName })
+    const { pageNo: page, pageSize, title } = ctx.request.query
+    const pageData = await services.findJobPage(page, pageSize, { title })
+    const total = await services.countJob({ title })
 
     ctx.state.apiResponse = {
       code: RESPONSE_CODE.SUC,
