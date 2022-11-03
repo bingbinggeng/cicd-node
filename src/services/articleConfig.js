@@ -1,7 +1,7 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-11-02 13:37:16
- * @LastEditTime: 2022-11-02 16:42:23
+ * @LastEditTime: 2022-11-03 10:19:12
  * @FilePath: \cicd-node\src\services\articleConfig.js
  */
 import articleModel from '../model/articleConfig'
@@ -25,6 +25,10 @@ export function countJob (params) {
   })
 
   return articleModel.count(params)
+}
+
+export function getArticleById (id) {
+  return articleModel.findById(id)
 }
 
 export function save (params) {

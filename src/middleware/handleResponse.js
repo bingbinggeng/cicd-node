@@ -1,3 +1,9 @@
+/*
+ * @Author: bingbing.geng
+ * @Date: 2022-11-02 08:17:51
+ * @LastEditTime: 2022-11-03 10:51:02
+ * @FilePath: \cicd-node\src\middleware\handleResponse.js
+ */
 import { RESPONSE_CODE } from '../constant'
 
 export function handleResponse () {

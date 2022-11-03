@@ -1,7 +1,7 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-11-02 13:41:12
- * @LastEditTime: 2022-11-03 09:49:42
+ * @LastEditTime: 2022-11-03 10:51:45
  * @FilePath: \cicd-node\src\controller\articleConfig.js
  */
 import * as services from '../services/articleConfig'
@@ -26,6 +26,26 @@ export async function getConfigList (ctx, next) {
     ctx.state.apiResponse = {
       code: RESPONSE_CODE.ERR,
       msg: '配置分页查询失败'
+    }
+  }
+  next()
+}
+
+export async function getArticleById(ctx, next) {
+  try {
+    const requestBody = ctx.request.body
+    
+    const { id } = requestBody
+    const data = await services.findJobById(id)
+    
+    ctx.state.apiResponse = {
+      code: RESPONSE_CODE.SUC,
+      data: data
+    }
+  } catch (e) {
+    ctx.state.apiResponse = {
+      code: RESPONSE_CODE.ERR,
+      msg: '查询失败'
     }
   }
   next()
