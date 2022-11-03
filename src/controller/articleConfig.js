@@ -1,7 +1,7 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-11-02 13:41:12
- * @LastEditTime: 2022-11-03 10:51:45
+ * @LastEditTime: 2022-11-03 14:04:00
  * @FilePath: \cicd-node\src\controller\articleConfig.js
  */
 import * as services from '../services/articleConfig'
@@ -59,7 +59,9 @@ export async function save (ctx, next) {
 
     ctx.state.apiResponse = {
       code: RESPONSE_CODE.SUC,
-      data: null
+      data: {
+        state: true
+      }
     }
   } catch (e) {
     ctx.state.apiResponse = {

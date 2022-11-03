@@ -1,7 +1,7 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-11-02 13:37:16
- * @LastEditTime: 2022-11-03 10:19:12
+ * @LastEditTime: 2022-11-03 14:08:26
  * @FilePath: \cicd-node\src\services\articleConfig.js
  */
 import articleModel from '../model/articleConfig'
@@ -13,6 +13,9 @@ export async function findJobPage (page, pageSize, params) {
   })
 
   const DocumentUserList = await articleModel.find(params)
+    .sort({
+      'createTime': -1
+    })
     .skip((page - 1) * pageSize)
     .limit(pageSize)
 
