@@ -5,19 +5,20 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=development && nodemon --inspect ./src/index.js --exec babel-node",
-    "build": "set NODE_ENV=production && node ./src/index.js"
+    "dev": "set NODE_ENV=development && nodemon --inspect app.js --exec babel-node",
+    "build": "set NODE_ENV=production && node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^12.0.0",
+    "jenkins": "^0.25.0",
     "koa": "^2.13.4",
     "koa-body": "^5.0.0",
     "mongoose": "^6.6.4",
     "nodemon": "^2.0.20",
-    "jenkins": "^0.25.0"
+    "ws": "^8.10.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

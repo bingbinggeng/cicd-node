@@ -8,6 +8,7 @@ import { RESPONSE_CODE } from '../constant'
 
 export function handleResponse () {
   return async function (ctx, next) {
+    console.log(ctx, '=====')
     await next()
     const { code, data, msg } = ctx.state.apiResponse
     ctx.body = getResult(code, data, msg)

@@ -1,5 +1,5 @@
 export default {
   db: {
-    uri: 'mongodb://localhost:27017/cicd'
+    uri: 'mongodb://127.0.0.1:27017/cicd'
   }
 }

@@ -6,13 +6,13 @@
  */
 import Koa from 'koa'
 import Router from '@koa/router'
-import { initGlobalRoute } from './routes'
-import { handleResponse } from './middleware'
-import * as db from './mongoose'
+import { initGlobalRoute } from './src/routes'
+import { handleResponse } from './src/middleware'
+import * as db from './src/mongoose'
 import KoaBody from 'koa-body'
-// import createWebSocket from './websocket/app'
+import createWebSocket from './src/websocket/app'
 
-// createWebSocket()
+createWebSocket()
 
 const app = new Koa();
 const router = new Router()

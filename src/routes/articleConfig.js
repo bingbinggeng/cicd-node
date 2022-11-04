@@ -8,13 +8,13 @@ import * as controller from '../controller/articleConfig'
 
 export function initArticleRoute (router) {
   // 文章查询
-  router.post('/getArticleById', controller.getArticleById)
+  router.post('/api/getArticleById', controller.getArticleById)
   // 配置查询
-  router.get('/getList', controller.getConfigList)
+  router.get('/api/getList', controller.getConfigList)
   // 配置保存
-  router.post('/article/save', controller.save)
+  router.post('/api/article/save', controller.save)
   // 配置更新
-  router.post('/article/update', controller.update)
+  router.post('/api/article/update', controller.update)
   // 删除配置
-  router.post('/article/delete', controller.del)
+  router.post('/api/article/delete', controller.del)
 }

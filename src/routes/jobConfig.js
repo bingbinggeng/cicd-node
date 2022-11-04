@@ -8,11 +8,11 @@ import * as controller from '../controller/jobConfig'
 
 export function initConfigRoute (router) {
   // 配置查询
-  router.get('/job', controller.getConfigList)
+  router.get('/api/job', controller.getConfigList)
   // 配置保存
-  router.post('/job/save', controller.save)
+  router.post('/api/job/save', controller.save)
   // 配置更新
-  router.post('/job/update', controller.update)
+  router.post('/api/job/update', controller.update)
   // 删除配置
-  router.post('/job/delete', controller.del)
+  router.post('/api/job/delete', controller.del)
 }

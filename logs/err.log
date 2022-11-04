@@ -1,0 +1,272 @@
+2022-11-06 12:36:16: (node:4200) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:16: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:16: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:16: import Koa from 'koa'
+2022-11-06 12:36:16: ^^^^^^
+2022-11-06 12:36:16: 
+2022-11-06 12:36:16: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:16:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:16:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:16:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:16:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:16:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:16:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:16:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:16:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:16:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:16:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:16: (node:5048) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:16: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:16: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:16: import Koa from 'koa'
+2022-11-06 12:36:16: ^^^^^^
+2022-11-06 12:36:16: 
+2022-11-06 12:36:16: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:16:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:16:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:16:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:16:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:16:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:16:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:16:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:16:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:16:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:16:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17: (node:4872) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:17: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:17: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:17: import Koa from 'koa'
+2022-11-06 12:36:17: ^^^^^^
+2022-11-06 12:36:17: 
+2022-11-06 12:36:17: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:17:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:17:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:17:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17: (node:3612) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:17: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:17: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:17: import Koa from 'koa'
+2022-11-06 12:36:17: ^^^^^^
+2022-11-06 12:36:17: 
+2022-11-06 12:36:17: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:17:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:17:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:17:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17: (node:2080) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:17: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:17: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:17: import Koa from 'koa'
+2022-11-06 12:36:17: ^^^^^^
+2022-11-06 12:36:17: 
+2022-11-06 12:36:17: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:17:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:17:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:17:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17: (node:1816) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:17: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:17: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:17: import Koa from 'koa'
+2022-11-06 12:36:17: ^^^^^^
+2022-11-06 12:36:17: 
+2022-11-06 12:36:17: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:17:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:17:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:17:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:17:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:17:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:17:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18: (node:1220) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:18: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:18: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:18: import Koa from 'koa'
+2022-11-06 12:36:18: ^^^^^^
+2022-11-06 12:36:18: 
+2022-11-06 12:36:18: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:18:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:18:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:18:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18: (node:1204) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:18: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:18: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:18: import Koa from 'koa'
+2022-11-06 12:36:18: ^^^^^^
+2022-11-06 12:36:18: 
+2022-11-06 12:36:18: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:18:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:18:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:18:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18: (node:2640) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:18: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:18: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:18: import Koa from 'koa'
+2022-11-06 12:36:18: ^^^^^^
+2022-11-06 12:36:18: 
+2022-11-06 12:36:18: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:18:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:18:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:18:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18: (node:3640) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:18: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:18: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:18: import Koa from 'koa'
+2022-11-06 12:36:18: ^^^^^^
+2022-11-06 12:36:18: 
+2022-11-06 12:36:18: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:18:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:18:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:18:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18: (node:1556) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:18: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:18: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:18: import Koa from 'koa'
+2022-11-06 12:36:18: ^^^^^^
+2022-11-06 12:36:18: 
+2022-11-06 12:36:18: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:18:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:18:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:18:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:18:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:18:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:18:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:18:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:19: (node:3392) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:19: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:19: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:19: import Koa from 'koa'
+2022-11-06 12:36:19: ^^^^^^
+2022-11-06 12:36:19: 
+2022-11-06 12:36:19: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:19:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:19:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:19:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:19:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:19:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:19:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:19:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:19:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:19:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:19:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:19: (node:3240) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:19: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:19: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:19: import Koa from 'koa'
+2022-11-06 12:36:19: ^^^^^^
+2022-11-06 12:36:19: 
+2022-11-06 12:36:19: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:19:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:19:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:19:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:19:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:19:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:19:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:19:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:19:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:19:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:19:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:19: (node:3344) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:19: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:19: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:19: import Koa from 'koa'
+2022-11-06 12:36:19: ^^^^^^
+2022-11-06 12:36:19: 
+2022-11-06 12:36:19: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:19:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:19:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:19:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:19:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:19:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:19:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:19:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:19:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:19:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:19:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:20: (node:532) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:20: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:20: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:20: import Koa from 'koa'
+2022-11-06 12:36:20: ^^^^^^
+2022-11-06 12:36:20: 
+2022-11-06 12:36:20: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:20:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:20:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:20:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:20:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:20:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:20:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:20:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:20:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:20:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:20:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:20: (node:4868) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+2022-11-06 12:36:20: (Use `node --trace-warnings ...` to show where the warning was created)
+2022-11-06 12:36:20: C:\services\cicd-node\src\index.js:7
+2022-11-06 12:36:20: import Koa from 'koa'
+2022-11-06 12:36:20: ^^^^^^
+2022-11-06 12:36:20: 
+2022-11-06 12:36:20: SyntaxError: Cannot use import statement outside a module
+2022-11-06 12:36:20:     at Object.compileFunction (node:vm:352:18)
+2022-11-06 12:36:20:     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-11-06 12:36:20:     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-11-06 12:36:20:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:20:     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-11-06 12:36:20:     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-11-06 12:36:20:     at Object.<anonymous> (C:\BtSoft\pm2\16.16.0\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2022-11-06 12:36:20:     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-11-06 12:36:20:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-11-06 12:36:20:     at Module.load (node:internal/modules/cjs/loader:981:32)
