@@ -10,9 +10,9 @@ import { initGlobalRoute } from './routes'
 import { handleResponse } from './middleware'
 import * as db from './mongoose'
 import KoaBody from 'koa-body'
-// import createWebSocket from './websocket/app'
+import createWebSocket from './websocket/app'
 
-// createWebSocket()
+createWebSocket()
 
 const app = new Koa();
 const router = new Router()
